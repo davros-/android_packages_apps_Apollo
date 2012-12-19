@@ -27,7 +27,7 @@
         <TextView
             android:id="@+id/audio_player_track"
             style="@style/AudioPlayerText"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="@dimen/text_size_large"
             android:textStyle="bold" />
 
@@ -35,7 +35,7 @@
             android:id="@+id/audio_player_album_artist"
             style="@style/AudioPlayerText"
             android:layout_below="@+id/audio_player_track"
-            android:textColor="@color/transparent_black"
+            android:textColor="@color/white"
             android:textSize="@dimen/text_size_small" />
     </RelativeLayout>
 

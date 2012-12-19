@@ -20,7 +20,7 @@
             android:layout_below="@android:id/progress"
             android:paddingLeft="@dimen/audio_player_info_container_padding"
             android:paddingRight="@dimen/audio_player_info_container_padding"
-            android:textColor="@color/transparent_black"
+            android:textColor="@color/white"
             android:textSize="@dimen/text_size_small"
             android:textStyle="bold" />
 
@@ -31,7 +31,7 @@
             android:layout_below="@android:id/progress"
             android:paddingLeft="@dimen/audio_player_info_container_padding"
             android:paddingRight="@dimen/audio_player_info_container_padding"
-            android:textColor="@color/transparent_black"
+            android:textColor="@color/white"
             android:textSize="@dimen/text_size_small"
             android:textStyle="bold" />
     </RelativeLayout>

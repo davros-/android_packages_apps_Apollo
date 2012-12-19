@@ -5,7 +5,7 @@
     <color name="transparent_black">#99000000</color>
 
     <!-- A semi-transparent dark Holo shade of blue -->
-    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_blue_dark">#ff33b5e5</color>
 
     <!-- Transparent -->
     <color name="transparent">#00000000</color>
@@ -14,9 +14,12 @@
     <color name="black">#ff000000</color>
 
     <!-- White -->
-    <color name="white">#ffffffff</color>
+    <color name="white">#ff33b5e5</color>
 
     <!-- Quick Queue line seperator -->
     <color name="queue_callout_line">#99ffffff</color>
+
+    <!-- A transparent white -->
+    <color name="transparent_white">#99ffffff</color>
 
 </resources>

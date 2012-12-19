@@ -40,13 +40,13 @@
             <TextView
                 android:id="@+id/bottom_action_bar_track_name"
                 style="@style/BottomActionBarText"
-                android:textColor="@color/transparent_black"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/bottom_action_bar_artist_name"
                 style="@style/BottomActionBarText"
-                android:textColor="@color/transparent_black" />
+                android:textColor="@color/white" />
         </LinearLayout>
 
         <com.andrew.apollo.ui.widgets.BottomActionBarItem

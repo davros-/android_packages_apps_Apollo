@@ -30,7 +30,7 @@
         android:largeHeap="true"
         android:process=":main"
         android:taskAffinity="apollo.task.music"
-        android:theme="@android:style/Theme.Holo.Light" >
+        android:theme="@*android:style/Theme.Holo" >
         <meta-data
             android:name="android.app.default_searchable"
             android:value=".activities.QueryBrowserActivity" />
@@ -38,7 +38,7 @@
         <activity
             android:name=".activities.QueryBrowserActivity"
             android:exported="true"
-            android:theme="@android:style/Theme.Holo.Light" >
+            android:theme="@*android:style/Theme.Holo" >
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
                 <action android:name="android.intent.action.MEDIA_SEARCH" />
@@ -141,7 +141,7 @@
         <activity
             android:name=".menu.PlaylistDialog"
             android:label="@string/rename_playlist"
-            android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar" >
             <intent-filter>
                 <action android:name="com.andrew.apollo.CREATE_PLAYLIST" />
 
@@ -156,7 +156,7 @@
         <activity
             android:name=".menu.PlaylistPicker"
             android:icon="@drawable/ic_launcher"
-            android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar" >
             <intent-filter>
                 <action android:name="com.andrew.apollo.ADD_TO_PLAYLIST" />
 
